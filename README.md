@@ -5,20 +5,24 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* blueprint models out 
 
-* System dependencies
+* rails g model model_name (creates model(s) and migration)
 
-* Configuration
+* run migrations 
 
-* Database creation
+* rails c test creation, and finding instances 
 
-* Database initialization
+* build assocs to test 
 
-* How to run the test suite
+* rails g controller model_name (create controller file)
 
-* Services (job queues, cache servers, search engines, etc.)
+* what routes do i need? (build em)
 
-* Deployment instructions
+* build views(basic as possible)
 
-* ...
+* crud it out, pry each one that uses params 
+
+* cut out bloat(refactor controllers) 
+
+* BDD... repeat
