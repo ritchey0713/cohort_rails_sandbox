@@ -1,0 +1,13 @@
+<h1>Activity Show</h1>
+
+<%= @activity.name %>
+
+<%= @activity.location %>
+
+<br/>
+<br/>
+<br/>
+
+<%= link_to "edit #{@activity.name}", edit_activity_path(@activity) %>
+
+<%= link_to "destroy #{@activity.name}", @activity, method: :delete, data: {confirm: "are you sure?"} %>
